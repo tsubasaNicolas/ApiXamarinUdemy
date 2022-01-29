@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BDPasajeEntities-Web.config Connection String" description="BDPasajeEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Models.BDPasaje.csdl|res://*/Models.BDPasaje.ssdl|res://*/Models.BDPasaje.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=sql5063.site4now.net;user id=db_a7c261_xamarintest2_admin;password=pedro2021;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\apiXamarin\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BDPasajeEntities']/@connectionString" />
+  </parameter>
+</parameters>

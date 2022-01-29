@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_a7c261_xamarintest2ModelStoreContainer" CdmEntityContainer="BDPasajeEntities">
+    <EntitySetMapping Name="Asiento">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Asiento">
+        <MappingFragment StoreEntitySet="Asiento">
+          <ScalarProperty Name="IIDASIENTO" ColumnName="IIDASIENTO" />
+          <ScalarProperty Name="IIDVIAJE" ColumnName="IIDVIAJE" />
+          <ScalarProperty Name="INDICEFILA" ColumnName="INDICEFILA" />
+          <ScalarProperty Name="INDICECOLUMNA" ColumnName="INDICECOLUMNA" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bus">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Bus">
+        <MappingFragment StoreEntitySet="Bus">
+          <ScalarProperty Name="IIDBUS" ColumnName="IIDBUS" />
+          <ScalarProperty Name="IIDSUCURSAL" ColumnName="IIDSUCURSAL" />
+          <ScalarProperty Name="IIDTIPOBUS" ColumnName="IIDTIPOBUS" />
+          <ScalarProperty Name="PLACA" ColumnName="PLACA" />
+          <ScalarProperty Name="FECHACOMPRA" ColumnName="FECHACOMPRA" />
+          <ScalarProperty Name="IIDMODELO" ColumnName="IIDMODELO" />
+          <ScalarProperty Name="NUMEROFILAS" ColumnName="NUMEROFILAS" />
+          <ScalarProperty Name="NUMEROCOLUMNAS" ColumnName="NUMEROCOLUMNAS" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="IIDMARCA" ColumnName="IIDMARCA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="IIDCLIENTE" ColumnName="IIDCLIENTE" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APPATERNO" ColumnName="APPATERNO" />
+          <ScalarProperty Name="APMATERNO" ColumnName="APMATERNO" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="IIDSEXO" ColumnName="IIDSEXO" />
+          <ScalarProperty Name="TELEFONOFIJO" ColumnName="TELEFONOFIJO" />
+          <ScalarProperty Name="TELEFONOCELULAR" ColumnName="TELEFONOCELULAR" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetalleVenta">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.DetalleVenta">
+        <MappingFragment StoreEntitySet="DetalleVenta">
+          <ScalarProperty Name="IIDVENTA" ColumnName="IIDVENTA" />
+          <ScalarProperty Name="IIDASIENTO" ColumnName="IIDASIENTO" />
+          <ScalarProperty Name="IIDVIAJE" ColumnName="IIDVIAJE" />
+          <ScalarProperty Name="IIDBUS" ColumnName="IIDBUS" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empleado">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="IIDEMPLEADO" ColumnName="IIDEMPLEADO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APPATERNO" ColumnName="APPATERNO" />
+          <ScalarProperty Name="APMATERNO" ColumnName="APMATERNO" />
+          <ScalarProperty Name="FECHACONTRATO" ColumnName="FECHACONTRATO" />
+          <ScalarProperty Name="SUELDO" ColumnName="SUELDO" />
+          <ScalarProperty Name="IIDTIPOUSUARIO" ColumnName="IIDTIPOUSUARIO" />
+          <ScalarProperty Name="IIDTIPOCONTRATO" ColumnName="IIDTIPOCONTRATO" />
+          <ScalarProperty Name="IIDSEXO" ColumnName="IIDSEXO" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lugar">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Lugar">
+        <MappingFragment StoreEntitySet="Lugar">
+          <ScalarProperty Name="IIDLUGAR" ColumnName="IIDLUGAR" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marca">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Marca">
+        <MappingFragment StoreEntitySet="Marca">
+          <ScalarProperty Name="IIDMARCA" ColumnName="IIDMARCA" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Modelo">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Modelo">
+        <MappingFragment StoreEntitySet="Modelo">
+          <ScalarProperty Name="IIDMODELO" ColumnName="IIDMODELO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sexo">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Sexo">
+        <MappingFragment StoreEntitySet="Sexo">
+          <ScalarProperty Name="IIDSEXO" ColumnName="IIDSEXO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sucursal">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Sucursal">
+        <MappingFragment StoreEntitySet="Sucursal">
+          <ScalarProperty Name="IIDSUCURSAL" ColumnName="IIDSUCURSAL" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="FECHAAPERTURA" ColumnName="FECHAAPERTURA" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoBus">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.TipoBus">
+        <MappingFragment StoreEntitySet="TipoBus">
+          <ScalarProperty Name="IIDTIPOBUS" ColumnName="IIDTIPOBUS" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoContrato">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.TipoContrato">
+        <MappingFragment StoreEntitySet="TipoContrato">
+          <ScalarProperty Name="IIDTIPOCONTRATO" ColumnName="IIDTIPOCONTRATO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoUsuario">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.TipoUsuario">
+        <MappingFragment StoreEntitySet="TipoUsuario">
+          <ScalarProperty Name="IIDTIPOUSUARIO" ColumnName="IIDTIPOUSUARIO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Venta">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Venta">
+        <MappingFragment StoreEntitySet="Venta">
+          <ScalarProperty Name="IIDVENTA" ColumnName="IIDVENTA" />
+          <ScalarProperty Name="IIDCLIENTE" ColumnName="IIDCLIENTE" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+          <ScalarProperty Name="IIDEMPLEADO" ColumnName="IIDEMPLEADO" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Viaje">
+      <EntityTypeMapping TypeName="db_a7c261_xamarintest2Model.Viaje">
+        <MappingFragment StoreEntitySet="Viaje">
+          <ScalarProperty Name="IIDVIAJE" ColumnName="IIDVIAJE" />
+          <ScalarProperty Name="IIDLUGARORIGEN" ColumnName="IIDLUGARORIGEN" />
+          <ScalarProperty Name="IIDLUGARDESTINO" ColumnName="IIDLUGARDESTINO" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+          <ScalarProperty Name="FECHAVIAJE" ColumnName="FECHAVIAJE" />
+          <ScalarProperty Name="IIDBUS" ColumnName="IIDBUS" />
+          <ScalarProperty Name="NUMEROASIENTOSDISPONIBLES" ColumnName="NUMEROASIENTOSDISPONIBLES" />
+          <ScalarProperty Name="BHABILITADO" ColumnName="BHABILITADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
