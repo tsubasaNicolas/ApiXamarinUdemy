@@ -20,7 +20,8 @@ namespace apiXamarin.Controllers
                                 select new TipoBusCLS
                                 {
                                     iidtipobus = p.IIDTIPOBUS,
-                                    nombre = p.NOMBRE
+                                    nombre = p.NOMBRE,
+                                    descripcion=p.DESCRIPCION
                                 }).ToList();
             return listaTipoBus;
         }
